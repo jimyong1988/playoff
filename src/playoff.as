@@ -28,7 +28,7 @@ package
 			var myContextMenu:ContextMenu = new ContextMenu();
 			myContextMenu.hideBuiltInItems();
 			//声明菜单新项
-			var item:ContextMenuItem=new ContextMenuItem("本“淘汰赛对阵表”的源码已托管至Google Code，点击打开...");
+			var item:ContextMenuItem=new ContextMenuItem("源码已托管至Google Code，点击打开...");
 			//添加到菜单显示项目数组
 			item.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, youjian);
 			
